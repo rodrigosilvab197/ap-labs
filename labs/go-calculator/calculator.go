@@ -15,19 +15,17 @@ func calc(operator int, values []int) int {
 		for i:=1; i<len(values);i++{
 			value += values[i]
 		}
-		fmt.Println("suma = ", value)
+		
 		return value
 	} else if operator == 2{
 		for i:=1; i<len(values);i++{
 			value -= values[i]
 		}
-		fmt.Println("resta = ", value)
 		return value
 	} else {
 		for i:=1; i<len(values);i++{
 			value *= values[i]
 		}
-		fmt.Println("multiplicacion = ", value)
 		return value
 	}
 }
