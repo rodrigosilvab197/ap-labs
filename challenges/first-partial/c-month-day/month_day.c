@@ -72,5 +72,5 @@ int main(int argc, char *argv[]) {
             month_day(year, day, &pmonth, &pday);
        
     }
-    return -1;
+    return 0;
 }
